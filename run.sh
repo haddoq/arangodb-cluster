@@ -41,7 +41,7 @@ need_instance() {
         echo INSTANCE is empty
         exit 1
     fi
-    INSTANCE_ID=$[${INSTANCE}-1]
+    INSTANCE_ID=${INSTANCE}
     echo "Using instance id: ${INSTANCE_ID}"
 }
 
